@@ -1,0 +1,28 @@
+Download Git from 
+
+https://github.com/git-for-windows/git/releases
+
+git bash
+
+pwd
+cd e:
+cd skb-projects
+git version
+git config --global user.name "Bhagavan S K"
+git config --global user.email "bhagavansk@gmail.com"
+git config git config --global --list
+git config --global --list
+git clone https://github.com/bhagavansk/github-demo.git
+cd github-demo
+ls
+git status
+echo "Test Git Quick start demo" > start.txt
+ls
+cat start.txt
+git status
+git add start.txt
+git status
+git commit -m "Adding start text file"
+git status
+git push origin main
+
